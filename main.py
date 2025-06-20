@@ -12,15 +12,14 @@ from datacleaning import rule_based, ml_based, missing_values
 
 # ---------- Page Setup ----------
 st.set_page_config(page_title="Army Payroll Cleaning & Anomaly Detection", layout="wide")
-
 st.markdown("""
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
     <style>
     html, body, [class*="css"] {
-        font-family: 'Segoe UI', sans-serif;
-        font-size: 16px;
+        font-family: 'Orbitron', sans-serif !important;
     }
-    .reportview-container .main .block-container {
-        padding-top: 2rem;
+    h1, h2, h3, h4, h5, h6, p, div, span, label, li, th, td, button {
+        font-family: 'Orbitron', sans-serif !important;
     }
     </style>
 """, unsafe_allow_html=True)
